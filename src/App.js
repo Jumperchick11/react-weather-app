@@ -2,11 +2,11 @@ import React from "react";
 import Weather from "./Weather";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           This project was coded by Bethany Nixon and is{" "}
           <a
@@ -14,12 +14,10 @@ function App() {
             rel="noreferrer"
             target="_blank"
           >
-            open-sourced on github
+            open-sourced on github and hosted on Netlify
           </a>
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
