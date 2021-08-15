@@ -14,7 +14,15 @@ export default function App() {
             rel="noreferrer"
             target="_blank"
           >
-            open-sourced on github and hosted on Netlify
+            open-sourced on github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://heuristic-mestorf-bf304f.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
